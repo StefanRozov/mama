@@ -1,0 +1,11 @@
+@import 'basic/_reset.css';
+@import 'basic/_vars.css';
+@import 'basic/_global.css';
+@import "components/_header.css";
+@import "components/_btn.css";
+@import "basic/_fonts.css";
+@import "home/_home.css";
+@import "components/_title-selection.css";
+@import "components/_footer.css";
+@import "home/_skills.css";
+@import "home/_info.css"

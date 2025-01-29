@@ -1,0 +1,26 @@
+
+
+.info__content {
+    padding-top: 70px;
+    border-top: 2px solid;
+    display: flex;
+    gap: 322px;
+}
+
+.info__desc {
+    max-width: 347px;
+    font-size: 32px;
+}
+
+.arrow {
+    display: inline-block;
+    transform: translateX(10px)
+}
+.info__addish {
+    margin-bottom: 27px;
+    font-size: 32px;
+}
+.view {
+    font-size: 18px; 
+    margin-bottom: 130px;
+}

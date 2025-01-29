@@ -1,0 +1,18 @@
+html {
+    overflow-x: hidden;
+}
+.body {
+    font-family: var(--dmsans);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.35;
+    color: var(black);
+    background-color: #F3F3F3;
+    position: relative;
+    overflow-x: hidden;
+}
+.container { 
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

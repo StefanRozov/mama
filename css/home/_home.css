@@ -1,0 +1,31 @@
+.home__title {
+    max-width: 480px;
+    max-height: 575px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 58.32px;
+    margin-bottom: 30px;
+}
+
+.home__content {
+    max-width: 575px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.44px;
+}
+
+.home__description {
+    margin-bottom: 136px;
+    max-width: 575px;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--gray);
+    line-height: 37.44px;
+}
+
+.home__inner {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}

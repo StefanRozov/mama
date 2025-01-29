@@ -1,0 +1,29 @@
+.skills{
+    max-width: 623px;
+    margin-bottom: 134px;
+}
+
+.main__soft{
+    display: flex;
+    gap: 63px
+}
+
+.main__software{
+    text-decoration: underline;
+    width: 124px;
+}
+.main__soft__description{
+    max-width: 436px;
+    margin-bottom: 24px;
+}
+
+.programs{
+    margin-bottom: 72px;
+}
+
+.main__second{
+    display: flex;
+    gap: 63px;
+}
+
+
