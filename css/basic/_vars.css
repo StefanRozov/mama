@@ -1,6 +1,5 @@
 :root {
---dmsans: "dmsans", sans-serif;
-
+    --dmsans: "DM Sans", sans-serif;
     --white: #F3F3F3;
     --blue: #2429AF;
     --black: #181717;

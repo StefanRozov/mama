@@ -5,6 +5,11 @@
     font-size: 60px;
     line-height: 58.32px;
     margin-bottom: 30px;
+    
+}
+.home__img {
+    
+    object-fit: cover;
 }
 
 .home__content {
@@ -29,3 +34,31 @@
     justify-content: space-between;
     gap: 40px;
 }
+@media (max-width: 1200px) {
+  .home__title {
+    font-size: 56px;
+    
+  }
+  .home__description {
+    font-size: 30px;
+  }
+}
+@media (max-width: 992px) {
+    .home__title {
+        font-size: 50px;
+        width: 350px;
+      line-height: 1;
+        
+        
+      }
+      .home__description {
+        font-size: 24px;
+        line-height: 1;
+      }
+      .home__img {
+        width: 381px;
+        height: 493px;
+      }
+    
+}
+@media (max-width: 768px)
