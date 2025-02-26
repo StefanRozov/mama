@@ -16,3 +16,14 @@
    .header__inner { margin: 30px 0 90px
    }
 }
+@media (max-width: 481px) {
+.header__list {
+    display: none;
+}
+.header__inner {
+    margin-bottom: 50px;
+}
+.logo {
+    display: none;
+}
+}

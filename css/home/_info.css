@@ -24,3 +24,64 @@
     font-size: 18px; 
     margin-bottom: 130px;
 }
+@media (max-width: 1200px) {
+    .info__desc {
+        
+            max-width: 400px;
+            font-size: 30px;
+        }
+    
+    .info__content  {
+        gap: 170px;
+    }
+    .info__addish {
+        font-size: 30px;
+    }
+}
+@media (max-width: 992px) {
+    .info__addish {
+        font-size: 28px;
+    }
+    .info__desc {
+        
+        max-width: 400px;
+        font-size: 28px;
+    }
+
+}
+@media (max-width: 768px) {
+ .info__content {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    
+ }
+ .arrow {
+    transform: rotate(90deg);
+ }
+ .info__addish {
+    margin-bottom: 15px;
+    font-size: 25px;
+ }
+ .info__desc {
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+ }
+
+ 
+}
+@media (max-width: 481px) {
+    .info__addish {
+        margin-bottom: 15px;
+        font-size: 20px;
+     }
+     .info__desc {
+        font-size: 23px;
+        align-items: center;
+        text-align: center;
+     }
+     .view {
+        font-size: 15px;
+     }
+}

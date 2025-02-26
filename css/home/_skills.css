@@ -27,3 +27,38 @@
 }
 
 
+@media (max-width: 768px) {
+    .main__software {
+        font-size: 16px;
+    }
+    .main__soft__description {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .programs {
+        font-size: 16px;
+    }
+    .main__soft {
+        margin-top: 25px;
+    }
+
+}
+@media (max-width: 481px) {
+    .main__software {
+        font-size: 14px;
+    }
+    .main__soft__description {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .programs {
+        font-size: 14px;
+    }
+    .main__soft {
+        margin-top: 25px;
+    }
+    .programs {
+        margin-bottom: 40px;
+    }
+}
+
