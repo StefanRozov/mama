@@ -144,26 +144,37 @@
 }
 
 @media (max-width: 768px) {
+    .popa {
+        display: flex;
+        justify-content: center;
+
+    }
+
     .work__content {
         flex-direction: column;
         gap: 0px;
         justify-content: center;
     }
+
     .work__title {
         margin: 0 auto;
         text-align: center;
         font-size: 46px;
     }
+
     .work__description {
         text-align: center;
         font-size: 25px;
     }
+
     .cases__card {
         flex-direction: column;
     }
+
     .cases__subtext {
         margin-bottom: 30px;
     }
+
     .photo__work__card {
         justify-content: left;
         margin: 0 0 0;
@@ -171,7 +182,16 @@
 
     }
 
+    .cases__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .cases__link__typography{
+        top:245px;
+        position: relative;
+    }
 
 
 }
