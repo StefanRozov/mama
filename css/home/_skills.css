@@ -28,6 +28,11 @@
 
 
 @media (max-width: 768px) {
+    .skills{
+        margin-bottom: 25px;
+    }
+
+
     .main__software {
         font-size: 16px;
     }

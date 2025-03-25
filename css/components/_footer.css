@@ -19,3 +19,22 @@
     font-size: 21px;
     color: #2429AF;
 }
+.footer__list__mobile {
+    display: none;
+
+}
+@media (max-width: 768px) {
+    .footer__list__mobile {
+        display: flex;
+    
+    }
+
+    .footer__list{
+        display: none;
+    }
+
+    .footer__inner{
+        margin: 50px 0 10px;
+    }
+
+}

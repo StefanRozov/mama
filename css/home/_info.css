@@ -50,6 +50,10 @@
 
 }
 @media (max-width: 768px) {
+    .info{
+        margin-bottom: 0px;
+    }
+
  .info__content {
     flex-direction: column;
     gap: 30px;
@@ -60,25 +64,35 @@
     transform: rotate(90deg);
  }
  .info__addish {
+    display: flex;
     margin-bottom: 15px;
     font-size: 25px;
+    justify-content: center;
  }
  .info__desc {
     font-size: 25px;
-    align-items: center;
+    display: inline-block;
     text-align: center;
+    margin: auto auto ;
+ }
+
+
+ .view {
+    display: flex;
+    justify-content: center;
  }
 
  
 }
 @media (max-width: 481px) {
+
+    
     .info__addish {
         margin-bottom: 15px;
         font-size: 20px;
      }
      .info__desc {
         font-size: 23px;
-        align-items: center;
         text-align: center;
      }
      .view {
